@@ -1,0 +1,33 @@
+{
+    "name": "simbiat/bic-tracker",
+    "type": "library",
+    "keywords": [
+        "bic",
+        "php",
+        "tracker"
+    ],
+    "description": "Library to track changes of Russian Bank Identification Codes using official files from Central Bank.",
+    "homepage": "https://github.com/Simbiat/BIC-Tracker",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Dmitrii Kustov",
+            "email": "support@simbiat.dev",
+            "homepage": "https://www.simbiat.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "simbiat/database": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simbiat\\BIC\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/Simbiat/BIC-Tracker/issues",
+        "source": "https://github.com/Simbiat/BIC-Tracker"
+    }
+}
